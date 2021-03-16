@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: tomato;
+    font-weight: bold;
+}
+
+.app-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-container-rigth {
+    display: flex;
+    flex-direction: column;
+}
+
+.app-container-rigth input {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    outline: none;
+
+    border-radius: 8px;
+    padding: 0.5vw;
+}
+
+.app-container-rigth button {
+    border: none;
+    outline: none;
+
+    padding: 0.5vw;
+
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 8px;
+}
+
+.search-container {
+    margin-top: 3vh;
+}
+
+.others-links {
+    position: absolute;
+    bottom: 2vh;
+    right: 2vh;
+}
+
+.github-info {
+    height: 43vh;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.github-info-title-and-desc {
+    padding-top: 5vh;
+    padding-left: 5vh;
+}
+
+.github-info-title-and-desc h1 {
+    margin-bottom: 2vh;
+}
+
+.github-info-title-and-desc ul {
+    margin-left: 1vw;
+    margin-top: 1vh;
+}
